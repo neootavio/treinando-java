@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Personagem RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="character-sheet">
+        <h1>Ficha de Personagem</h1>
+        <div class="character-info">
+            <label for="character-name">Nome:</label>
+            <input type="text" id="character-name" value="Otávio, o Guerreiro">
+        </div>
+        <div class="level-info">
+            <p>Nível: <span id="level">1</span></p>
+            <div class="experience-bar">
+                <div class="experience-fill" id="experience-fill"></div>
+            </div>
+            <p>Experiência: <span id="experience">0</span> / <span id="max-experience">100</span></p>
+        </div>
+        <button onclick="addExperience()">Atividade Concluída</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
