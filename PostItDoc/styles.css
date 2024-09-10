@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     height: 100vh;
     margin: 0;
     background-color: aliceblue;
 }
 
-h1{
+h1 {
     color: black;
 }
 
@@ -79,4 +79,20 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#voltar {
+    position: fixed;
+    /* Mantém o botão fixo na posição */
+    bottom: 20px;
+    /* Distância do botão para o fundo da página */
+    right: 20px;
+    /* Distância do botão para o lado direito da página */
+    padding: 10px 20px;
+    background-color: #007bffd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
