@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+li{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.feito{
+    margin: auto;
+    text-decoration: line-through;
+    color: rgb(89, 89, 89);
+}
+
+button{
+    margin-left: 50px;
+}
