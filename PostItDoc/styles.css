@@ -5,11 +5,24 @@ body {
     align-items: top;
     height: 100vh;
     margin: 0;
-    background-color: aliceblue;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.dark-mode {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin: 0;
+    background-color: #313866;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+
 h1 {
-    color: black;
+    color: #FF7BBF
 }
 
 .container {
@@ -34,7 +47,7 @@ textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #2ee534;
+    background-color: #FF7BBF;
     color: rgb(3, 3, 3);
     border: none;
     border-radius: 5px;
@@ -43,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #00ff0d;
+    background-color: #964EC2;
 }
 
 .postit-board {
@@ -89,7 +102,7 @@ button:hover {
     right: 20px;
     /* Distância do botão para o lado direito da página */
     padding: 10px 20px;
-    background-color: #007bffd4;
+    background-color: #50409A;
     color: white;
     border: none;
     border-radius: 5px;

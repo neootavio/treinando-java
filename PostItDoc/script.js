@@ -46,5 +46,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const toggleButton = document.getElementById('darkModeToggle');
+
+    
+    const toggleCheckbox = document.getElementById('darkModeToggle');
+    const label = document.getElementById('darkModeLabel');
+
+    toggleCheckbox.addEventListener('change', function() {
+      document.body.classList.toggle('dark-mode');
+
+      // Altera o texto do label conforme o tema
+      if (toggleCheckbox.checked) {
+        label.textContent = 'Desativar Dark Mode';
+      } else {
+        label.textContent = 'Ativar Dark Mode';
+      }
+    });
+
     loadPostits();
 });
